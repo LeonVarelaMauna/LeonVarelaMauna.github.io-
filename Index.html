@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#epk">EPK</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Homepage) -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Nexus Music</h1>
+            <p>Your gateway to the world of music</p>
+            <a href="#music" class="btn">Listen Now</a>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Media</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="photo1.jpg" alt="Artist Photo 1"></div>
+            <div class="gallery-item"><img src="photo2.jpg" alt="Artist Photo 2"></div>
+            <!-- Add more photos -->
+        </div>
+        <div class="videos">
+            <h3>Featured Videos</h3>
+            <iframe src="https://www.youtube.com/embed/your_video_link" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- EPK Section -->
+    <section id="epk">
+        <h2>Electronic Press Kit</h2>
+        <p>Your bio and press kit content here...</p>
+        <div class="press-photos">
+            <img src="press-photo1.jpg" alt="Press Photo 1">
+        </div>
+        <p>For booking inquiries, contact: <strong>email@example.com</strong></p>
+    </section>
+
+    <!-- Music Links -->
+    <section id="music">
+        <h2>Listen to My Music</h2>
+        <div class="music-links">
+            <a href="https://spotify.com/yourmusic">Spotify</a>
+            <a href="https://apple.com/yourmusic">Apple Music</a>
+            <!-- Add more links -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Leon Alexander Music. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
